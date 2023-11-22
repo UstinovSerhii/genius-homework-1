@@ -1,0 +1,51 @@
+/* base */
+
+ul {
+  list-style-type: none;
+}
+/* button */
+.button {
+  color: #fff;
+  border-radius: 32px;
+  background-color: #2b7fff;
+  cursor: pointer;
+}
+.button.button:hover {
+  color: #011c44;
+  background-color: transparent;
+}
+.order {
+  color: #4a4a4a;
+}
+/* link */
+.link {
+  color: #011c44;
+}
+.link:hover {
+  color: #2b7fff;
+}
+/* Hero-section */
+.hero-title {
+  color: #2b7fff;
+}
+
+.section-title {
+  color: #011c44;
+}
+/* Highlighted words */
+.accent {
+  color: #2b7fff;
+}
+/* Advantages section */
+.advantages-list {
+  color: #000;
+}
+/* Description info */
+.description {
+  color: #011c44;
+}
+/* Procedores  */
+.procedures {
+  color: #fff;
+}
+/* Footer */
