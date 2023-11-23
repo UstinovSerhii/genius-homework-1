@@ -1,3 +1,8 @@
+:root {
+  --primary-dark: #011c44;
+  --primary-light: #2b7fff;
+}
+
 /* base */
 
 ul {
@@ -7,11 +12,11 @@ ul {
 .button {
   color: #fff;
   border-radius: 32px;
-  background-color: #2b7fff;
+  background-color: var(--primary-light);
   cursor: pointer;
 }
 .button.button:hover {
-  color: #011c44;
+  color: var(--primary-dark);
   background-color: transparent;
 }
 .order {
@@ -19,22 +24,22 @@ ul {
 }
 /* link */
 .link {
-  color: #011c44;
+  color: var(--primary-dark);
 }
 .link:hover {
-  color: #2b7fff;
+  color: var(--primary-light);
 }
 /* Hero-section */
 .hero-title {
-  color: #2b7fff;
+  color: var(--primary-light);
 }
 
 .section-title {
-  color: #011c44;
+  color: var(--primary-dark);
 }
 /* Highlighted words */
 .accent {
-  color: #2b7fff;
+  color: var(--primary-light);
 }
 /* Advantages section */
 .advantages-list {
@@ -42,7 +47,7 @@ ul {
 }
 /* Description info */
 .description {
-  color: #011c44;
+  color: var(--primary-dark);
 }
 /* Procedores  */
 .procedures {
