@@ -5,7 +5,7 @@
 
 /* base */
 body {
-  font-size: 'Roboto', 'sans-serif';
+  font-family: 'Roboto', 'sans-serif';
 }
 
 ul {
@@ -36,7 +36,7 @@ ul {
 /* Hero-section */
 .hero-title {
   color: var(--primary-light);
-  font-size: 'Play', 'sans-serif';
+  font-family: 'Play', 'sans-serif';
 }
 
 .section-title {
