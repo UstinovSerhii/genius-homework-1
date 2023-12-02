@@ -37,11 +37,23 @@ ul {
 .hero-title {
   color: var(--primary-light);
   font-family: 'Play', 'sans-serif';
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.section-title-one {
+  color: var(--primary-dark);
+  text-align: left;
+}
+.section-title-one span {
+  text-transform: capitalize;
 }
 
 .section-title {
   color: var(--primary-dark);
+  text-align: center;
 }
+
 /* Highlighted words */
 .accent {
   color: var(--primary-light);
@@ -53,7 +65,13 @@ ul {
 /* Description info */
 .description {
   color: var(--primary-dark);
+  text-align: left;
 }
+.description span {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
 /* Procedores  */
 .procedures {
   color: #fff;
