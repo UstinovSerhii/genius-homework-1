@@ -1,3 +1,35 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
 :root {
   --primary-dark: #011c44;
   --primary-light: #2b7fff;
@@ -6,6 +38,13 @@
 /* base */
 body {
   font-family: 'Roboto', 'sans-serif';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  font-style: normal;
+}
+address {
+  font-style: normal;
 }
 
 ul {
@@ -14,6 +53,7 @@ ul {
 /* button */
 .button {
   color: #fff;
+  font-weight: 600;
   border-radius: 32px;
   background-color: var(--primary-light);
   cursor: pointer;
@@ -24,6 +64,7 @@ ul {
 }
 .order {
   color: #4a4a4a;
+  line-height: 1.5;
 }
 /* link */
 .link {
@@ -32,6 +73,7 @@ ul {
 }
 .link:hover {
   color: var(--primary-light);
+  font-weight: 700;
 }
 /* Hero-section */
 .hero-title {
@@ -39,13 +81,17 @@ ul {
   font-family: 'Play', 'sans-serif';
   text-align: left;
   text-transform: capitalize;
+  font-size: 140px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 0.81;
 }
 
 .section-title-one {
   color: var(--primary-dark);
   text-align: left;
 }
-.section-title-one span {
+.title-description span {
   text-transform: capitalize;
 }
 
@@ -61,13 +107,15 @@ ul {
 /* Advantages section */
 .advantages-list {
   color: #000;
+  line-height: 1.33;
 }
 /* Description info */
 .description {
   color: var(--primary-dark);
   text-align: left;
+  line-height: 1.7;
 }
-.description span {
+.description .brand {
   text-transform: capitalize;
   font-weight: 600;
 }
@@ -75,5 +123,14 @@ ul {
 /* Procedores  */
 .procedures {
   color: #fff;
+  line-height: 1.18;
 }
 /* Footer */
+.address-link {
+  color: #fff;
+  text-decoration: none;
+}
+.address-copyright {
+  color: #747272;
+  font-size: 13px;
+}
