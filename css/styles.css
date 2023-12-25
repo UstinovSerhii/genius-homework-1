@@ -1,48 +1,29 @@
-@font-face {
-  font-display: swap;
-  font-family: 'Play';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Play';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
-}
-
 :root {
   --primary-dark: #011c44;
   --primary-light: #2b7fff;
 }
 
 /* base */
+* {
+  box-sizing: border-box;
+}
 body {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: 'Roboto';
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
   font-style: normal;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
 address {
   font-style: normal;
 }
@@ -57,6 +38,7 @@ ul {
   border-radius: 32px;
   background-color: var(--primary-light);
   cursor: pointer;
+  padding: 16px 32px;
 }
 .button.button:hover {
   color: var(--primary-dark);
@@ -65,6 +47,7 @@ ul {
 .order {
   color: #4a4a4a;
   line-height: 1.5;
+  padding-top: 14px;
 }
 /* link */
 .link {
@@ -75,7 +58,25 @@ ul {
   color: var(--primary-light);
   font-weight: 700;
 }
-/* Hero-section */
+/* hero section */
+.hero-section {
+  padding: 16px 0 83px;
+}
+.cosmetology-clinic {
+  padding: 20px 0 187px;
+}
+.advantages-section {
+  padding: 187px 0 48px;
+}
+.procedures-section {
+  padding: 48px 0;
+}
+.location-section {
+  padding: 48px 0 46px;
+}
+.footer-section {
+  padding: 46px 0 0;
+}
 .hero-title {
   color: var(--primary-light);
   font-family: 'Play', 'sans-serif';
@@ -85,6 +86,8 @@ ul {
   font-weight: 700;
   font-style: normal;
   line-height: 0.81;
+  margin-bottom: 0;
+  padding: 16px 0 40px;
 }
 
 .section-title-one {
